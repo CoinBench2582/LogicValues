@@ -1,0 +1,14 @@
+﻿<Project>
+	<PropertyGroup>
+		<ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+	</PropertyGroup>
+	<ItemGroup>
+	  <PackageVersion Include="SonarAnalyzer.CSharp" Version="10.16.0.128591" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.Testing.Extensions.TrxReport" Version="2.0.2" />
+		<PackageVersion Include="Microsoft.Testing.Extensions.CodeCoverage" Version="2.0.2" />
+		<PackageVersion Include="MSTest.TestAdapter" Version="4.0.2" />
+		<PackageVersion Include="MSTest.TestFramework" Version="4.0.2" />
+	</ItemGroup>
+</Project>
