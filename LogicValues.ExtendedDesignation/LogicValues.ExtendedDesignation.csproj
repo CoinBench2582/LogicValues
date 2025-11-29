@@ -1,22 +1,43 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<PackageId>LogicValues.ExtendedDesignation</PackageId>
+		<Title>Logic Values - Extended Designation</Title>
+		<Product>LogicValues.ExtendedDesignation</Product>
+		<PackageId>CoinBench.LogicValues.ExtendedDesignation</PackageId>
 		<Version>0.0.0</Version>
 		<Authors>CoinBench</Authors>
 		<PackageDescription>Provides logic values for three-valued logic systems with extended designated values</PackageDescription>
 		<RepositoryUrl>https://github.com/CoinBench2582/LogicValues</RepositoryUrl>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+		<PackageTags>logic</PackageTags>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<NeutralLanguage>en-GB</NeutralLanguage>
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+		<SignAssembly>True</SignAssembly>
 		<IsPackable>true</IsPackable>
 	</PropertyGroup>
 
 	<PropertyGroup>
 		<Deterministic>true</Deterministic>
+		<DebugType>embedded</DebugType>
+		<IsAotCompatible>True</IsAotCompatible>
 	</PropertyGroup>
 
 	<PropertyGroup>
 		<AnalysisLevel>latest</AnalysisLevel>
 		<AnalysisMode>all</AnalysisMode>
 	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\LICENSE.txt">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Include="..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
 
 	<ItemGroup>
 	  <PackageReference Include="SonarAnalyzer.CSharp">
