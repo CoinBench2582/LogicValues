@@ -1,10 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<PackageId>LogicValues</PackageId>
+		<PackageId>LogicValues.ExtendedDesignation</PackageId>
 		<Version>0.0.0</Version>
 		<Authors>CoinBench</Authors>
-		<PackageDescription>Provides logic values for three-valued logic systems</PackageDescription>
+		<PackageDescription>Provides logic values for three-valued logic systems with extended designated values</PackageDescription>
 		<RepositoryUrl>https://github.com/CoinBench2582/LogicValues</RepositoryUrl>
 		<IsPackable>true</IsPackable>
 	</PropertyGroup>
@@ -24,6 +24,9 @@
 	    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 	  </PackageReference>
 	</ItemGroup>
-	
-</Project>
 
+	<ItemGroup>
+	  <ProjectReference Include="..\LogicValues\LogicValues.csproj" />
+	</ItemGroup>
+
+</Project>

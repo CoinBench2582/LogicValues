@@ -7,6 +7,6 @@
     <File Path="three-valued-logics.pdf" />
   </Folder>
   <Project Path="LogicValues.Tests/LogicValues.Tests.csproj" Id="886dfb9f-8225-4805-8422-99b548b359d3" />
-  <Project Path="LogicValues.WideDesignation/LogicValues.WideDesignation.csproj" Id="ef7eb882-be58-412e-beac-ce54802f37aa" />
+  <Project Path="LogicValues.ExtendedDesignation/LogicValues.ExtendedDesignation.csproj" Id="ef7eb882-be58-412e-beac-ce54802f37aa" />
   <Project Path="LogicValues/LogicValues.csproj" />
 </Solution>

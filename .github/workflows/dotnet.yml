@@ -13,6 +13,8 @@ on:
 jobs:
   build:
     name: Test
+    permissions:
+      contents: read
     runs-on: ubuntu-latest
 
     steps:
