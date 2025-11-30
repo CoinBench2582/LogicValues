@@ -5,4 +5,25 @@
 		<Nullable>enable</Nullable>
 		<LangVersion>latest</LangVersion>
 	</PropertyGroup>
+	<PropertyGroup>
+		<Deterministic>true</Deterministic>
+		<DebugType>embedded</DebugType>
+		<IsAotCompatible>True</IsAotCompatible>
+	</PropertyGroup>
+	
+	<PropertyGroup>
+		<Version>0.0.0</Version>
+		<Authors>CoinBench</Authors>
+		<RepositoryUrl>https://github.com/CoinBench2582/LogicValues</RepositoryUrl>
+		<NeutralLanguage>en-GB</NeutralLanguage>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageTags>Logic</PackageTags>
+	</PropertyGroup>
+	<PropertyGroup>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+		<SignAssembly>True</SignAssembly>
+		<IncludeSymbols>True</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+		<IsPackable>true</IsPackable>
+	</PropertyGroup>
 </Project>

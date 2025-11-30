@@ -1,12 +1,17 @@
 ﻿<Project Sdk="MSTest.Sdk/4.0.2">
 
-  <PropertyGroup>
-    <ImplicitUsings>enable</ImplicitUsings>
-  </PropertyGroup>
+    <PropertyGroup>
+        <ImplicitUsings>enable</ImplicitUsings>
+	    <IsAotCompatible>false</IsAotCompatible>
+		<GenerateDocumentationFile>false</GenerateDocumentationFile>
+		<SignAssembly>false</SignAssembly>
+		<IncludeSymbols>false</IncludeSymbols>
+		<IsPackable>false</IsPackable>
+    </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\LogicValues.ExtendedDesignation\LogicValues.ExtendedDesignation.csproj" />
-    <ProjectReference Include="..\LogicValues\LogicValues.csproj" />
-  </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\LogicValues.ExtendedDesignation\LogicValues.ExtendedDesignation.csproj" />
+        <ProjectReference Include="..\LogicValues\LogicValues.csproj" />
+    </ItemGroup>
 
 </Project>
